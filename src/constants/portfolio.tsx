@@ -8,7 +8,8 @@ export const greetings = {
     description:
         "I'm Full Stack Developer with  experience in software engineering and developing new features and apps for different products and clients by using programming tools like Reactjs, React-Native,  Node.js ..etc . Capable of analyzing customer feedback in order to find the best way to create new and enhance the existing product features and performing quality assurance.",
     resumeLink:
-        "https://drive.google.com/file/d/17EeN65baze7KA2uSNuAe2ks9z0CcqrmE/view?usp=sharing",
+        "https://drive.google.com/file/d/17EeN65baze7KA2uSNuAe2ks9z0CcqrmE/view?usp=drive_link",
+
 };
 
 export const openSource = {
@@ -21,10 +22,10 @@ interface SocialLinksT {
     [key: string]: string
 }
 export const socialLinks: SocialLinksT = {
-    
+
     linkedin: "https://www.linkedin.com/in/adel-alradaey",
     github: "https://github.com/AdelAlradaie",
-   
+
 };
 
 export const skillsSection: SkillsSectionT = {
@@ -52,7 +53,7 @@ export const skillsSection: SkillsSectionT = {
                     skillName: " tailwindcss",
                     fontAwesomeClassname: "logos:tailwindcss-icon",
                 },
-              
+
                 {
                     skillName: "Material UI",
                     fontAwesomeClassname: "logos:material-ui",
@@ -65,17 +66,17 @@ export const skillsSection: SkillsSectionT = {
                     skillName: "Redux",
                     fontAwesomeClassname: "logos:redux",
                 },
-               
+
                 {
                     skillName: "React-Native",
                     fontAwesomeClassname: "tabler:brand-react-native",
                 },
-           
+
                 {
                     skillName: "Reactjs",
                     fontAwesomeClassname: "vscode-icons:file-type-reactjs",
                 },
-        
+
                 {
                     skillName: "NPM",
                     fontAwesomeClassname: "logos:npm-icon",
@@ -84,13 +85,13 @@ export const skillsSection: SkillsSectionT = {
                     skillName: "Yarn",
                     fontAwesomeClassname: "logos:yarn",
                 },
-                  
-              
+
+
                 {
                     skillName: "Nodejs",
                     fontAwesomeClassname: "logos:nodejs",
                 },
-              
+
                 {
                     skillName: "JavaScript",
                     fontAwesomeClassname: "logos:javascript",
@@ -112,8 +113,8 @@ export const skillsSection: SkillsSectionT = {
                     skillName: "c-sharp",
                     fontAwesomeClassname: "logos:c-sharp",
                 },
-               
-    
+
+
             ],
         },
         {
@@ -145,7 +146,7 @@ export const skillsSection: SkillsSectionT = {
                     fontAwesomeClassname: "logos:mongodb",
                 },
 
-                
+
 
             ],
         }
@@ -181,7 +182,7 @@ export const educationInfo = [
         subHeader: "Bachelor degree in Information Technology",
         duration: "November 2020 - March 2024",
         desc: "",
-        
+
     },
 
 ];
@@ -196,7 +197,7 @@ export const experience = [
     },
 
 
-   
+
 ];
 
 export const projects: Array<ProjectT> = [
@@ -263,10 +264,10 @@ export const projects: Array<ProjectT> = [
     {
         name: "Merne-Estate",
         desc: "Real Estate app using MERN and tailwind css ( React js - Node js - MongoDB, Firebase ).",
-        github:"https://github.com/AdelAlradaie/mern-state",
+        github: "https://github.com/AdelAlradaie/mern-state",
         link: "https://mernestate-ir4m.onrender.com/",
         images: [
-            
+
             {
                 link: require("../assets/images/projects/mernstate.png")
             }
@@ -292,8 +293,8 @@ export const projects: Array<ProjectT> = [
                 name: "TailwindCss",
                 fontAwesomeClassname: "skill-icons:tailwindcss-dark",
             },
-         
-           
+
+
         ]
     },
 
