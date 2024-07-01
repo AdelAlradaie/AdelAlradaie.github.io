@@ -1,0 +1,59 @@
+import React from 'react';
+import { socialLinks } from '../constants/portfolio';
+import { Button } from "reactstrap";
+
+export type ISocialLinksProps = {
+
+}
+
+const SocialLinks: React.FC<ISocialLinksProps> = ({ }) => {
+    return (
+        <div className="btn-wrapper text-lg">
+            {socialLinks.url && (
+                <Button
+                    className="btn-icon-only rounded-circle ml-1"
+                    color="white"
+                    rel="noopener"
+                    aria-label="URL"
+                    href={socialLinks.url}
+                    target="_blank"
+                >
+                    <span className="btn-inner--icon">
+                        <i className="fa fa-link" />
+                    </span>
+                </Button>
+            )}
+            {socialLinks.linkedin && (
+                <Button
+                    className="btn-icon-only rounded-circle ml-1"
+                    color="twitter"
+                    rel="noopener"
+                    aria-label="Linkedin"
+                    href={socialLinks.linkedin}
+                    target="_blank"
+                >
+                    <span className="btn-inner--icon">
+                        <i className="fa fa-linkedin" />
+                    </span>
+                </Button>
+            )}
+            {socialLinks.github && (
+                <Button
+                    className="btn-icon-only rounded-circle ml-1"
+                    color="github"
+                    href={socialLinks.github}
+                    rel="noopener"
+                    aria-label="Github"
+                    target="_blank"
+                >
+                    <span className="btn-inner--icon">
+                        <i className="fa fa-github" />
+                    </span>
+                </Button>
+            )}
+        
+        </div>
+    );
+}
+
+export default SocialLinks
