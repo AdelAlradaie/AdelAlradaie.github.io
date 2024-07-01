@@ -180,7 +180,7 @@ export const educationInfo = [
     {
         schoolName: "National University",
         subHeader: "Bachelor degree in Information Technology",
-        duration: "November 2020 - March 2024",
+        duration: "November 2020 - February 2024",
         desc: "",
 
     },
