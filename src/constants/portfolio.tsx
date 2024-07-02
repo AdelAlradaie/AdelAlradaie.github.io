@@ -23,7 +23,7 @@ interface SocialLinksT {
 }
 export const socialLinks: SocialLinksT = {
 
-    linkedin: "https://www.linkedin.com/in/adel-alradaey",
+    linkedin: "https://www.linkedin.com/in/adel-alradaie",
     github: "https://github.com/AdelAlradaie",
 
 };
