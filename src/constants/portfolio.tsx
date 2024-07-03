@@ -6,7 +6,7 @@ export const greetings = {
     name: "Adel Alradaie",
     title: "Hi all, I'm Adel Alradaie",
     description:
-        "I'm Full Stack Developer with  experience in software engineering and developing new features and apps for different products and clients by using programming tools like Reactjs, React-Native,  Node.js ..etc . Capable of analyzing customer feedback in order to find the best way to create new and enhance the existing product features and performing quality assurance.",
+        "I'm Full Stack Developer with over 2 years of experience in software engineering and developing new features and apps for different products and clients by using programming tools like Reactjs, React-Native,  Node.js ..etc . Capable of analyzing customer feedback in order to find the best way to create new and enhance the existing product features and performing quality assurance.",
     resumeLink:
         "https://drive.google.com/file/d/17EeN65baze7KA2uSNuAe2ks9z0CcqrmE/view?usp=drive_link",
 
