@@ -205,7 +205,7 @@ export const projects: Array<ProjectT> = [
         name: "instagram-clone",
         desc: "Fullstack Instagram Clone Built With React, Firebase && Chakra UI. ",
         github: "https://github.com/AdelAlradaie/Instagram-clone",
-        // link: "https://insta-clone-7b083.web.app",
+        link: "",
         images: [
             {
                 link: require("../assets/images/projects/instagram.png")
